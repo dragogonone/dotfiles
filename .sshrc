@@ -1,0 +1,24 @@
+# bring setting for remote login server
+
+### .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# User specific aliases and functions
+PS1="\[\033[36m\][\u@\h \w]\[\033[0m\]$ "
+
+# 【WIP】auto screen attach
+# if [ $TERM != "screen" ]; then
+#     if [ $TERM != "dumb" ]; then
+#         screen -e ^z^z
+#     fi
+# fi
+# # exit 
+# function detachExit() {
+#   screen -d;
+#   exit;
+# }
+# alias exit=detachExit

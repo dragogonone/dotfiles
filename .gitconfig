@@ -1,0 +1,17 @@
+[user]
+  name = dragogonone
+  email = dragogoneone@gmail.com
+[core]
+  editor = code --wait
+[alias]
+  st = status
+  cm = commit
+  current-branch = rev-parse --abbrev-ref HEAD
+[commit]
+	# gpgsign = true
+[pager]
+	branch = false
+[merge]
+	ff = false
+[pull]
+	ff = only
