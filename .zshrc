@@ -1,6 +1,9 @@
 # brewとかのため
 PATH=/usr/local/bin:$PATH
 
+# claude codeのため
+export PATH="$HOME/.local/bin:$PATH"
+
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
 

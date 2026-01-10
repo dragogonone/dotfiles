@@ -18,3 +18,4 @@ bin/
 .env.stgdb03
 .env.stgdb04
 .env.stgdb05
+**/.claude/settings.local.json
