@@ -81,8 +81,8 @@ man() {
 export LESS="-mMR"
 
 ### exa ###
-if type "exa" > /dev/null 2>&1; then
-  alias ls='exa'
+if type "eza" > /dev/null 2>&1; then
+  alias ls='eza'
 fi
 
 ### sshrc ###
